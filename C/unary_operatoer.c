@@ -11,7 +11,7 @@ scanf("%d",&a);
 printf(" Enter value of b : ");
 scanf("%d",&b);
 
-(a>b)? printf("a is grater than b"): printf("b is grater than a ");
+(a>b) ? printf("a is grater than b"): printf("b is grater than a ");
 
 
 
