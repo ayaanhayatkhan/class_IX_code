@@ -1,0 +1,17 @@
+body {
+
+color: chocolate;
+}
+h1{
+font-family: 'Times New Roman', Times, serif;
+font-size: large;
+}
+h2{
+color: aqua;
+font-size: larger;
+background-color: blue;
+}
+p{
+font-size: large;
+font-style: italic;
+}
