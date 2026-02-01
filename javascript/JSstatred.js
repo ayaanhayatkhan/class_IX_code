@@ -36,3 +36,29 @@ let i = "Ayaan khan"
 let j = Symbol ("I am Ayaan khan ")
 console.log(f, g , h , i, j)
 console.log(typeof j)
+
+// Non primitive data types - Objects in JS
+const item = {
+    "Harry" : true,
+    "Sheery" : false,
+    "Afaan" : 69,
+    "Ayan" : undefined,
+
+}
+console.log(item["Harry"])
+
+// chap - 1 Practice set
+let k = "harry"
+let l = "sharry"
+console.log(k+l)
+
+console.log("Operators in JS")
+let m = 60;
+let n = 5;
+console.log("m + n", m + n)
+console.log("m - n", m - n)
+console.log("m ** n", m ** n)
+console.log("m / n", m / n)
+console.log("m % n", m % n)
+console.log("m++ n", m++)
+console.log("m-- n", m--)
