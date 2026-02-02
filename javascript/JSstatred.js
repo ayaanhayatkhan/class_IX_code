@@ -62,3 +62,13 @@ console.log("m / n", m / n)
 console.log("m % n", m % n)
 console.log("m++ n", m++)
 console.log("m-- n", m--)
+
+let o = prompt("Hey what is your age ?")
+o = Number.parseInt
+if(a>3){
+alert("This is a valid age.")
+
+}
+else{
+    alert("This is an invalid age")
+}
