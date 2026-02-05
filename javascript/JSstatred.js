@@ -72,4 +72,14 @@ if (o > 3) {
     alert("This is an invalid age.");
 }*/
 
- 
+ let obj = {
+harry : 78,
+Ayaan : 523
+
+}
+for (let a in obj){
+
+console.log(a)
+
+
+}
