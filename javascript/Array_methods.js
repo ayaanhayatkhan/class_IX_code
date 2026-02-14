@@ -51,6 +51,8 @@ let num_1 = [53, 34, 23, 42, 24,]
 num_1.sort(compare)
 console.log(num_1)
 
+let r = num.shift()
+console.log(r,num)
 
 
 
