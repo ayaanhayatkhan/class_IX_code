@@ -4,6 +4,7 @@ int main()
 {
 
 int a , b ;
+b = 0;
 for ( b = 0; b < 3; b++)
 {
 
@@ -15,8 +16,13 @@ cout<<" \n The number is even ";
 else 
 cout<<" \n The number is odd ";
 
+b++;
 
 }
+
+
+
+
 
 return 0;
 
