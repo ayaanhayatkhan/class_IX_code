@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+int num;
+for (num=10;num>=1;--num)
+printf("%d\t",num);
+
+
+
+}
