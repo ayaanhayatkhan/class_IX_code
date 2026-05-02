@@ -9,7 +9,6 @@ gets(name);
 printf("Your name is = ");
 puts( name);
 
-
 return 0;
 
 }
