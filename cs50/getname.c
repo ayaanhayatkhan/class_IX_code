@@ -1,22 +1,17 @@
-#include <stdio.h>
+#include "ayaan.h"
+#include "cs50.h"
 
 int main()
 {
-char name[20];
+    char name[20];
 
-printf("Enter your name ");
-gets(name);
-printf("Your name is = ");
-puts( name);
+    printf("Enter your name: ");
+    fgets(name, sizeof(name), stdin);
 
-char fathername[30];
-int main()
- string fathername = get_string("What's your name ");
-printf("Hello ,%s\n", fathername);
+    printf("Your name is = %s", name);
 
+    string fathername = get_string("Enter your father's name: ");
+    printf("Hello, %s", fathername);
 
-
-
-return 0;
-
+    return 0;
 }
